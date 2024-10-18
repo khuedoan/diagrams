@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17">
   <diagram name="Page-1" id="jL8mQO_E5wvyLZK8uviz">
-    <mxGraphModel dx="1092" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="754" dy="425" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,7 +53,7 @@
         <mxCell id="vCvrfWAKihV9GZR7NiI2-2" value="OCI registry" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="280" y="1300" width="80" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="vCvrfWAKihV9GZR7NiI2-3" value="my-app repo" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="vCvrfWAKihV9GZR7NiI2-3" value="my-service repo" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="110" y="1230" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vCvrfWAKihV9GZR7NiI2-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="vCvrfWAKihV9GZR7NiI2-5" target="vCvrfWAKihV9GZR7NiI2-6">
@@ -67,7 +67,7 @@
         <mxCell id="vCvrfWAKihV9GZR7NiI2-5" value="root app" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="480" y="1160" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="vCvrfWAKihV9GZR7NiI2-6" value="my-app" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="vCvrfWAKihV9GZR7NiI2-6" value="my-service app" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="610" y="1160" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vCvrfWAKihV9GZR7NiI2-8" value="k8s" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -129,7 +129,7 @@
         <mxCell id="vCvrfWAKihV9GZR7NiI2-49" value="OCI registry" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="280" y="1560" width="80" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="vCvrfWAKihV9GZR7NiI2-50" value="my-app repo" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="vCvrfWAKihV9GZR7NiI2-50" value="my-service repo" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="110" y="1490" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vCvrfWAKihV9GZR7NiI2-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="vCvrfWAKihV9GZR7NiI2-53" target="vCvrfWAKihV9GZR7NiI2-54">
@@ -143,7 +143,7 @@
         <mxCell id="vCvrfWAKihV9GZR7NiI2-53" value="root app" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="480" y="1420" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="vCvrfWAKihV9GZR7NiI2-54" value="my-app" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="vCvrfWAKihV9GZR7NiI2-54" value="my-service app" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="610" y="1420" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vCvrfWAKihV9GZR7NiI2-55" value="k8s" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
