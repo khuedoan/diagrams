@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.1.0">
   <diagram name="Page-1" id="5gHTe7L51xCgyEdPg6Vv">
-    <mxGraphModel dx="2682" dy="2308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2924" dy="2367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -172,7 +172,7 @@
         </mxCell>
         <object placeholders="1" c4Name="US1" c4Type="SystemScopeBoundary" c4Application="Azure" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="JPQwxbyP2aDbhnjHrj1Q-36">
           <mxCell style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1" parent="1">
-            <mxGeometry x="1275" width="365" height="385" as="geometry" />
+            <mxGeometry x="1275" y="60" width="295" height="490" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="JPQwxbyP2aDbhnjHrj1Q-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JPQwxbyP2aDbhnjHrj1Q-62" target="JPQwxbyP2aDbhnjHrj1Q-31">
@@ -218,9 +218,6 @@
         <mxCell id="JPQwxbyP2aDbhnjHrj1Q-64" value="Client certificate" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Certificate.svg;" vertex="1" parent="1">
           <mxGeometry x="1310" y="95" width="50" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="JPQwxbyP2aDbhnjHrj1Q-68" value="IP whitelist + client certificate" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.policy_configuration;" vertex="1" parent="1">
-          <mxGeometry x="730" y="168.5" width="43" height="43" as="geometry" />
-        </mxCell>
         <mxCell id="JPQwxbyP2aDbhnjHrj1Q-73" value="Private *.taservs.net" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" vertex="1" parent="1">
           <mxGeometry x="23" y="884" width="64" height="64" as="geometry" />
         </mxCell>
@@ -229,6 +226,55 @@
         </mxCell>
         <mxCell id="JPQwxbyP2aDbhnjHrj1Q-75" value="Private *.taservs.net" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" vertex="1" parent="1">
           <mxGeometry x="593" y="884" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="JPQwxbyP2aDbhnjHrj1Q-80" value="&lt;div&gt;Requires&lt;/div&gt;&lt;div&gt;IP whitelist + client certificate&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="730" y="165" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JPQwxbyP2aDbhnjHrj1Q-83" value="Azure Container Registry&lt;br&gt;axonhub.azurecr.us&lt;br&gt;axonhub.azurecr.io" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Container_Registries.svg;" vertex="1" parent="1">
+          <mxGeometry x="910" y="1220" width="68" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="JPQwxbyP2aDbhnjHrj1Q-84" value="&lt;div&gt;IP whitelist&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="1022" y="780" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JPQwxbyP2aDbhnjHrj1Q-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JPQwxbyP2aDbhnjHrj1Q-85" target="JPQwxbyP2aDbhnjHrj1Q-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1505" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPQwxbyP2aDbhnjHrj1Q-89" value="Pull container" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JPQwxbyP2aDbhnjHrj1Q-88">
+          <mxGeometry x="-0.335" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPQwxbyP2aDbhnjHrj1Q-85" value="Application Pod" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="1480" y="430" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="JPQwxbyP2aDbhnjHrj1Q-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.985;entryY=0.574;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JPQwxbyP2aDbhnjHrj1Q-62" target="JPQwxbyP2aDbhnjHrj1Q-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1415" y="1260" />
+              <mxPoint x="977" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPQwxbyP2aDbhnjHrj1Q-90" value="&lt;div&gt;Pull chart&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JPQwxbyP2aDbhnjHrj1Q-86">
+          <mxGeometry x="-0.0116" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPQwxbyP2aDbhnjHrj1Q-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.015;entryY=0.574;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JPQwxbyP2aDbhnjHrj1Q-19" target="JPQwxbyP2aDbhnjHrj1Q-83">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="1255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JPQwxbyP2aDbhnjHrj1Q-93" value="Push chart &amp;amp; app image" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JPQwxbyP2aDbhnjHrj1Q-92">
+          <mxGeometry x="-0.2448" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
