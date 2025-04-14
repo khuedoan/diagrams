@@ -1,9 +1,66 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.12">
   <diagram name="Page-1" id="n4vQtlLnX8UV_ensSrTQ">
-    <mxGraphModel>
+    <mxGraphModel dx="2175" dy="2269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-3" value="AG1" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="200" width="340" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-1" value="ag1-hub-va-vnet-firewall" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Firewalls.svg;" vertex="1" parent="jhAq6_XQmlERfDQX-SKr-3">
+          <mxGeometry x="134.5" y="60" width="71" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-6" value="AG1 Platform Cluster" style="swimlane;" vertex="1" parent="jhAq6_XQmlERfDQX-SKr-3">
+          <mxGeometry x="55" y="190" width="230" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-10" value="TestKube Agent" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_78890b9d4bfc1e2691b3fa9c71cfd656/testkube.png;" vertex="1" parent="jhAq6_XQmlERfDQX-SKr-6">
+          <mxGeometry x="38.81" y="70" width="152.38" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jhAq6_XQmlERfDQX-SKr-3" source="jhAq6_XQmlERfDQX-SKr-10" target="jhAq6_XQmlERfDQX-SKr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-9" value="TestKube Cloud" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_78890b9d4bfc1e2691b3fa9c71cfd656/testkube.png;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-30" width="152.38" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jhAq6_XQmlERfDQX-SKr-1" target="jhAq6_XQmlERfDQX-SKr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-22" value="AG1" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="316.19" y="200" width="340" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-23" value="ag1-hub-va-vnet-firewall" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Firewalls.svg;" vertex="1" parent="jhAq6_XQmlERfDQX-SKr-22">
+          <mxGeometry x="134.5" y="60" width="71" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-24" value="AG1 Platform Cluster" style="swimlane;" vertex="1" parent="jhAq6_XQmlERfDQX-SKr-22">
+          <mxGeometry x="55" y="190" width="230" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-25" value="TestKube Agent" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_78890b9d4bfc1e2691b3fa9c71cfd656/testkube.png;" vertex="1" parent="jhAq6_XQmlERfDQX-SKr-24">
+          <mxGeometry x="38.81" y="70" width="152.38" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jhAq6_XQmlERfDQX-SKr-22" source="jhAq6_XQmlERfDQX-SKr-25" target="jhAq6_XQmlERfDQX-SKr-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-27" value="AG1" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="680" y="200" width="340" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-28" value="ag1-hub-va-vnet-firewall" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Firewalls.svg;" vertex="1" parent="jhAq6_XQmlERfDQX-SKr-27">
+          <mxGeometry x="134.5" y="60" width="71" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-29" value="AG1 Platform Cluster" style="swimlane;" vertex="1" parent="jhAq6_XQmlERfDQX-SKr-27">
+          <mxGeometry x="55" y="190" width="230" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-30" value="TestKube Agent" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_78890b9d4bfc1e2691b3fa9c71cfd656/testkube.png;" vertex="1" parent="jhAq6_XQmlERfDQX-SKr-29">
+          <mxGeometry x="38.81" y="70" width="152.38" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jhAq6_XQmlERfDQX-SKr-27" source="jhAq6_XQmlERfDQX-SKr-30" target="jhAq6_XQmlERfDQX-SKr-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jhAq6_XQmlERfDQX-SKr-23" target="jhAq6_XQmlERfDQX-SKr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jhAq6_XQmlERfDQX-SKr-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jhAq6_XQmlERfDQX-SKr-28" target="jhAq6_XQmlERfDQX-SKr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
